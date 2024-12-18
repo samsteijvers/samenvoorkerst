@@ -1,5 +1,5 @@
 body{
-    background-image: url('christmasbackground.jpg');
+    background-image: url('_layouts/christmasbackground.jpg');
     background-size: cover;        /* Cover the entire viewport */
     background-repeat: initial;  /* Prevent the image from repeating */
     background-position: center;   /* Center the image */
