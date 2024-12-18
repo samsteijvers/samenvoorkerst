@@ -5,10 +5,44 @@ body{
     background-position: center;   /* Center the image */
     background-color: #323a3f;
 }
+.rules-box{
+    background-color: blanchedalmond;
+    width: 75vw;
+    height: 75vw;
+    margin-top: -2vw;
+    margin-left: 13vw;
+    align-items: center;
+    position: absolute;
+}
+.rules-box-shadow{
+    background-color: #092912;
+    width: 76vw;
+    height: 75vw;
+    margin-top: 6vw;
+    margin-left: 10vw;
+}
 .challenge-box{
     background-color: blanchedalmond;
     width: 75vw;
     height: 50vw;
+    margin-top: -2vw;
+    margin-left: 13vw;
+    align-items: center;
+    position: absolute;
+}
+.challenge-box2{
+    background-color: blanchedalmond;
+    width: 75vw;
+    height: 60vw;
+    margin-top: -2vw;
+    margin-left: 13vw;
+    align-items: center;
+    position: absolute;
+}
+.challenge-box3{
+    background-color: blanchedalmond;
+    width: 75vw;
+    height: 35vw;
     margin-top: -2vw;
     margin-left: 13vw;
     align-items: center;
@@ -21,6 +55,20 @@ body{
     margin-top: 6vw;
     margin-left: 10vw;
 }
+.challenge-box-shadow2{
+    background-color: #092912;
+    width: 76vw;
+    height: 60vw;
+    margin-top: 6vw;
+    margin-left: 10vw;
+}
+.challenge-box-shadow3{
+    background-color: #092912;
+    width: 76vw;
+    height: 35vw;
+    margin-top: 6vw;
+    margin-left: 10vw;
+}
 .title-challenge{
     color: darkred;
     font-size: 7vw;
@@ -28,10 +76,23 @@ body{
     margin-top: 4vw;
     margin-left: 24vw;
 }
+.title-challenge2{
+    color: darkred;
+    font-size: 7vw;
+    font-family: "Imperial Script";
+    margin-top: 4vw;
+    margin-left: 21vw;
+}
 .challenge-text {
     color: black;
     font-size: 2.5vw;
     margin: 4vw;
+    font-family: "Lora";
+}
+li{
+    color: black;
+    font-size: 2.5vw;
+    margin: 2vw;
     font-family: "Lora";
 }
 .challenge-text2 {
@@ -39,4 +100,32 @@ body{
     font-size: 3vw;
     margin: 4vw;
     font-family: "Lora";
+}
+.button{
+    height: 8vw;
+    width: 26vw;
+    margin-left: 22vw;
+    background-color: darkred;
+    color: black;
+    position: relative;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button-text{
+    font-size: 3vw;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-family: "Lora";
+    z-index: 1;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkgreen;
+    color: white;
+    transition: 0.4s;
 }
